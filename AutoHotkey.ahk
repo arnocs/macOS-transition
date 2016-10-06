@@ -15,6 +15,8 @@
 ; <^>! = <AltGr>
 ; #################
 
+;#N::return
+
 
 ; #################################################################
 ; ## 
@@ -28,11 +30,14 @@
 #Include include\macOS_cursor_mouse.ahk
 #Include include\macOS_functionkeys.ahk
 ;#Include include\macOS_charactermapping.ahk
+#Include include\win-keys.ahk
 
 #Include include\macOS_apps_keymappings.ahk
+#Include include\win-keys.ahk
 ;#Include include\macOS_.ahk
 ;#Include include\macOS_.ahk
 ;#Include include\macOS_.ahk
+
 
 
 ; #################################################################

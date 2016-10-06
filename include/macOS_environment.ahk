@@ -46,14 +46,8 @@
 	!Delete::Send {left}{LCtrl down}{Right}{LCtrl Up}{LShift down}{LCtrl down}{Right}{LShift Up}{Lctrl up}{Del}{left 2}
 
 ; # Window movement #
-#m::							; Minimize 
+;#m::							; Minimize 
 ;	WinMaximize,A
-	WinMinimize,A
-return
-
-;;;;; TEST
-	#+::Send ^+
-	#-::Send ^-
-	#+::^+
-	#-::^-
+;	WinMinimize,A
+;return
 

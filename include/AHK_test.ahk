@@ -4,6 +4,13 @@
 ;	#+::^+
 ;	#-::^-
 
+; # Window movement # stops include after this...
+;#m::							; Minimize 
+;	WinMaximize,A
+;	WinMinimize,A
+;return
+
+
 ;Shift & LWin & Tab::Send +{AltTab}				
 ;	LWin & `::Send +!{Tab}
 

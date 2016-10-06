@@ -31,5 +31,6 @@
 
 	#g::Send !g		; alt-g lastpass
 	
+		
 ;	!Left::SendInput, ^{Left}		; Alt left
 ;	!Right::SendInput, ^{Right}		; Alt right

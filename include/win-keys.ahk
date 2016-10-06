@@ -10,7 +10,6 @@
 ; <^>! = <AltGr>
 ; #################
 
-
 #N::return
 ;#L::return ; Cannot be disabled
 ;error;!{TAB}::return
