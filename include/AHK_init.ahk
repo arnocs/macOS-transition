@@ -1,6 +1,14 @@
 ; #################################################################
 ; #### Initial settings
 
+; #################
+; # = Windows key
+; ^ = <CTRL>
+; ! = <ALT>
+; + = <Shift>
+; <^>! = <AltGr>
+; #################
+
 ; Set defaults for <scroll-lock>, <caps-lock> and <num-lock>
 	SetScrollLockState, AlwaysOff	; Scroll Lock	OFF
 	SetCapsLockState, Off			; Caps Lock		OFF
@@ -33,6 +41,3 @@
 ;#l::!d
 ;#l::Send {LCtrl down}{l}{LCtrl up} ;disabled, I like winkey-L
 
-#N::return
-;#L::return
-;!{TAB}::return

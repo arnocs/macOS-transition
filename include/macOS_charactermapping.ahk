@@ -1,8 +1,6 @@
 ; #################################################################
 ; #### OS X keyboard for special Character mappings 
-; Thanks to AWK_Programmer 
-; http://www.autohotkey.com/forum/viewtopic.php?p=469373#469373
-
+; Thanks to AWK_Programmer / http://www.autohotkey.com/forum/viewtopic.php?p=469373#469373
 ; #################
 ; # = Windows key
 ; ^ = <CTRL>

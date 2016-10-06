@@ -1,5 +1,13 @@
 ; #################################################################
-; AHK_init_macOS.ahk
+; #### AHK_init_macOS.ahk
+
+; #################
+; # = Windows key
+; ^ = <CTRL>
+; ! = <ALT>
+; + = <Shift>
+; <^>! = <AltGr>
+; #################
 ;
 
 ; #### Mac Keyboard profiles ###

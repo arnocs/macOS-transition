@@ -1,6 +1,13 @@
 ; #################################################################
-; #### Function Keys ####
+; #### Function Keys
 ; Thanks to AWK_Programmer - http://www.autohotkey.com/forum/viewtopic.php?p=469373#469373
+; #################
+; # = Windows key
+; ^ = <CTRL>
+; ! = <ALT>
+; + = <Shift>
+; <^>! = <AltGr>
+; #################
 
 ; # Fn Key
 

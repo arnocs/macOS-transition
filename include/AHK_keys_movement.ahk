@@ -1,4 +1,13 @@
 ; #################################################################
+; #### Window Management 
+
+; #################
+; # = Windows key
+; ^ = <CTRL>
+; ! = <ALT>
+; + = <Shift>
+; <^>! = <AltGr>
+; #################
 
 ; # Window management #
 	#W::Send ^{F4}	; Close Window
