@@ -1,5 +1,5 @@
 ; #################################################################
-; #### Window Management 
+; #### Cursor and Mouse Movement
 
 ; #################
 ; # = Windows key
@@ -9,23 +9,14 @@
 ; <^>! = <AltGr>
 ; #################
 
-; # Window management #
-	#W::Send ^{F4}	; Close Window
-	#Q::Send !{F4}	; Quit
-	#T::Send ^t	; New Tab
+; Problems with Total Commander
+	;!Up::Send {Home}			; Alt UP 
+	;!Down::Send {End}			; Ald Down
 
-; ### Win-Find, changed to <ctrl>-f
-	#f::Send {LCtrl down}{f}{LCtrl up}
-
-; ## Spotlite search combination activates windows menu.
-	#space::Send {LWin}					; Spotlight Search
-
-; ## Remap cmd+Tab to Alt+Tab # (No more 3D-alt-tab)
-	LWin & Tab::AltTab					; Alt Tab
-
-;Shift & LWin & Tab::Send +{AltTab}				
-	LWin & `::Send +!{Tab}
-
+; ## HOME END Functions
+	Home::SendInput ^{home}
+	END::SendInput ^{end}
+	
 ; ## Cursor movement and Selections #
 	#Left::SendInput {Home}			; Command left
 	#Right::SendInput {End}			; Command right
@@ -46,10 +37,6 @@
 	;!Up::Send {Home}			; Alt UP 
 	;!Down::Send {End}			; Ald Down
 
-; ## HOME END Functions
-	Home::SendInput ^{home}
-	END::SendInput ^{end}
-
 ; ???
 	;<!Left::Send {ctrl down}{Left}{ctrl up}
 	;<!Right::Send {ctrl down}{Right}{ctrl up}
@@ -68,9 +55,3 @@
 	;!+Down::Send {ctrl down}{shift down}{Down}}{shift up}{ctrl up}
 	;^+Up::Send {Lctrl down}{shift down}{Home}}{shift up}{Lctrl up}
 	;^+Down::Send {Lctrl down}{shift down}{End}}{shift up}{Lctrl up}
-
-; ## Mouse Selection #
-	#LButton::SendInput ^{LButton}		; Left mouse button
-	#RButton::SendInput ^{RButton}		; Right mouse button
-	#+LButton::SendInput ^+{LButton}	; Left mouse button
-	#+RButton::SendInput ^+{RButton}	; Right mouse button

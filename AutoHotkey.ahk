@@ -5,7 +5,7 @@
 ; Override Windows keys - https://autohotkey.com/docs/misc/Override.htm 
 
 ; ## BUGS
-	; LWin+LShift+left popups StartMenu
+	; RWin+LShift+left popups StartMenu
 
 ; #################
 ; # = Windows key
@@ -15,29 +15,27 @@
 ; <^>! = <AltGr>
 ; #################
 
-;#N::return
-
-
 ; #################################################################
-; ## 
 #Include %A_ScriptDir%
-; ## INIT
+;SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
+
+; ## INIT'
 #Include include\AHK_init.ahk
+
 ; ## macOS / OSX
+#Include functions/apple_wired_keyboard.ahk		; 
+;
 #Include include\macOS.ahk
-; ## 
 #Include include\macOS_environment.ahk
-#Include include\macOS_cursor_mouse.ahk
+;#Include include\macOS_special_character.ahk
 #Include include\macOS_functionkeys.ahk
-;#Include include\macOS_charactermapping.ahk
-#Include include\win-keys.ahk
-
+#Include include\macOS_cursor.ahk
+#Include include\macOS_mouse.ahk
 #Include include\macOS_apps_keymappings.ahk
+;
 #Include include\win-keys.ahk
-;#Include include\macOS_.ahk
-;#Include include\macOS_.ahk
-;#Include include\macOS_.ahk
 
 
+;#Include include\macOS_.ahk
 
 ; #################################################################

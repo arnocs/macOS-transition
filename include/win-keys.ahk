@@ -11,7 +11,11 @@
 ; #################
 
 #N::return
+		
+; Disable lock, select addressbar browser.
 ;#L::return ; Cannot be disabled
+;#l::!d
+
 ;error;!{TAB}::return
 
 

@@ -1,2 +1,6 @@
 AutoHotkey-error.ahk
 include/AHK_test.ahk
+include/AHK_test2
+include/AHK_test.ahk
+include/AHK_test.ahk
+include/AHK_test2.ahk

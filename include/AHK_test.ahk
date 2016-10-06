@@ -1,3 +1,15 @@
+;======Switch=Windows========
+;============================
+ 
+F3::
+	Sleep 100
+	Send, {LWin down}{Tab}
+	Sleep 200
+{
+	Keywait, F3, D
+	Send, {LWin up}
+}
+
 ;;;;; TEST
 ;	#+::Send ^+
 ;	#-::Send ^-
@@ -9,7 +21,6 @@
 ;	WinMaximize,A
 ;	WinMinimize,A
 ;return
-
 
 ;Shift & LWin & Tab::Send +{AltTab}				
 ;	LWin & `::Send +!{Tab}
@@ -26,7 +37,6 @@
 	;RWIN & LBUTTON::send {ctrl down}{LButton}{ctrl up}
 	;CTRL & LBUTTON::send {RButton}
 
-
 ;$LWin::
 ;    KeyWait, LWin, T0.2
 ;    If !ErrorLevel	; if you hold the LWin key for less than 200 miliseconds...
@@ -35,4 +45,3 @@
 ;        Send, {LWin Down} 	; ...hold LWin down
 ;    KeyWait, LWin ; and, in both cases, wait for it to be released
 ;Return
-
