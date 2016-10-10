@@ -23,7 +23,7 @@
 #Include include\AHK_init.ahk
 
 ; ## macOS / OSX
-#Include functions/apple_wired_keyboard.ahk		; 
+;#Include functions/apple_wired_keyboard.ahk		; 
 ;
 #Include include\macOS.ahk
 #Include include\macOS_environment.ahk

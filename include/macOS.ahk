@@ -18,3 +18,4 @@
 
 ; not working becouse of forced <win>+keys
 ;+#4::$S
+

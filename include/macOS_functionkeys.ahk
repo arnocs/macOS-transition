@@ -9,31 +9,6 @@
 ; <^>! = <AltGr>
 ; #################
 
-
-; # Fn Key
-
-; # F18 = Vk81 (Insert) #
-;Vk81::Send {Insert}
-;!Vk81::Send !{Insert}
-;^Vk81::Send ^{Insert}
-
-; ### Map Function keys on a Mac keyboard
-;+F3::Send #^{TAB}
-;+F4::Send !^{TAB}
-;+F10::Send {Volume_Mute}
-;+F11::Send {Volume_DOwn 3}
-;+F12::Send {Volume_Up}
-
-
-;+!4::Send {LWin S}
-;#S::Send {LWin}
-
-;`::SendInput {LWin}S
-
-; `::Send, this hotkey works.
-; Shift & `::Send, this hotkey also works.
-
-;
 	;#F1:: gosub, BrightnessDown
 	;#F2:: gosub, BrightnessUp
 	#F3::Send #^{TAB}
@@ -79,7 +54,17 @@
 	F19::Run Calc
 	; Thanks, http://superuser.com/a/463652/249349
 	;
-	+#q::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 0, "int",0) 
+	+#q::
+	{
+		Sleep, 200
+		DllCall("LockWorkStation")
+		Sleep, 200
+		SendMessage,0x112,0xF170,2,,Program Manager
+	}
+	return
+
+	
+	+#F19::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 1, "int",0) 
 		;Run "C:\Windows\system32\Rundll32.exe" User32.dll,LockWorkStation			; Lock Workstation
 	; Run "rundll32.exe PowrProf.dll,SetSuspendState"		; Hibernate Computer
 	; Run "Shutdown.exe -r -t 60"							; Restart Computer
@@ -89,3 +74,27 @@
 		
 ;
 	F20::SendInput {Insert}
+		
+		; # Fn Key
+
+; # F18 = Vk81 (Insert) #
+;Vk81::Send {Insert}
+;!Vk81::Send !{Insert}
+;^Vk81::Send ^{Insert}
+
+; ### Map Function keys on a Mac keyboard
+;+F3::Send #^{TAB}
+;+F4::Send !^{TAB}
+;+F10::Send {Volume_Mute}
+;+F11::Send {Volume_DOwn 3}
+;+F12::Send {Volume_Up}
+
+
+;+!4::Send {LWin S}
+;#S::Send {LWin}
+
+;`::SendInput {LWin}S
+
+; `::Send, this hotkey works.
+; Shift & `::Send, this hotkey also works.
+
