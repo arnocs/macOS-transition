@@ -1,5 +1,23 @@
-
+; #################################################################
+; #### Window Management 
+; Override Windows keys - https://autohotkey.com/docs/misc/Override.htm 
 ; http://www.askvg.com/tip-how-to-disable-all-win-keyboard-shortcuts-hotkeys-in-windows/
+; #################
+; # = Windows key
+; ^ = <CTRL>
+; ! = <ALT>
+; + = <Shift>
+; <^>! = <AltGr>
+; #################
+
+#N::return
+		
+; Disable lock, select addressbar browser.
+;#L::return ; Cannot be disabled
+;#l::!d
+
+;error;!{TAB}::return
+
 
 ; WIN+R to launch RUN dialog box
 ; WIN+E to launch Windows Explorer
