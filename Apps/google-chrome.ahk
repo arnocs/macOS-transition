@@ -17,7 +17,7 @@
 	#!i::Send {F12}								; Show Web Developer Tools with cmd + alt + i
 ;	#!u::Send ^u								; Show source code with cmd + alt + u
 	#!u::Send !d
-	;#l::Send !d
+	!l::Send !d									; Alternative to #L (is locked by windows)
 	#Y::Send ^h
 ;{Ctrl}{LWIN}{F}::Send {F11}
 	#D::Send ^d
