@@ -11,3 +11,8 @@
 	Create Tagfile=0
 [Files]
 	0=.\
+[Group]
+	0=git
+[Files - git]
+	0=.gitignore
+	1=.gitattributes

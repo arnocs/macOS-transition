@@ -17,8 +17,6 @@ ALT & TAB::return	; [disable] ALT-Tab
 ;#L::return ; Cannot be disabled
 ;#l::!d
 
-
-
 ; WIN+R to launch RUN dialog box
 ; WIN+E to launch Windows Explorer
 ; WIN+L to lock
