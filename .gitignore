@@ -3,4 +3,8 @@ include/AHK_test.ahk
 include/AHK_test2
 include/AHK_test.ahk
 include/AHK_test.ahk
-include/AHK_test2.ahk
+include/AHK_test2.ahkexcl
+
+*.bak
+*.pui
+*.prj
