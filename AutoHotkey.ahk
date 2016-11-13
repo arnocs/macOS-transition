@@ -29,13 +29,15 @@
 #Include include\macOS_environment.ahk
 ;#Include include\macOS_special_character.ahk
 #Include include\macOS_functionkeys.ahk
-#Include include\macOS_cursor.ahk
+#Include include\macOS_cursor_movement.ahk
 #Include include\macOS_mouse.ahk
 #Include include\macOS_apps_keymappings.ahk
 ;
-#Include include\win-keys.ahk
+#Include include\macOS_win-keys.ahk
 
 
 ;#Include include\macOS_.ahk
 
 ; #################################################################
+
+;20161113, Win-Keys (alt-tab, Lwin+grave-accent), Renamed win-key, cursor file.

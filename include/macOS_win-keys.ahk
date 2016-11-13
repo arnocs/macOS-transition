@@ -10,13 +10,13 @@
 ; <^>! = <AltGr>
 ; #################
 
-#N::return
-		
+#N::return	; [disable] Onenote, newnote.
+ALT & TAB::return	; [disable] ALT-Tab
+			
 ; Disable lock, select addressbar browser.
 ;#L::return ; Cannot be disabled
 ;#l::!d
 
-;error;!{TAB}::return
 
 
 ; WIN+R to launch RUN dialog box
