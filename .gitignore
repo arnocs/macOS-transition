@@ -5,6 +5,5 @@ include/AHK_test.ahk
 include/AHK_test.ahk
 include/AHK_test2.ahkexcl
 test/
-
 *.bak
 *.pui
