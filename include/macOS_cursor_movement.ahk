@@ -9,33 +9,29 @@
 ; <^>! = <AltGr>
 ; #################
 
-; Problems with Total Commander
-	;!Up::Send {Home}			; Alt UP 
-	;!Down::Send {End}			; Ald Down
-
 ; ## HOME END Functions
-	Home::SendInput ^{home}
-	END::SendInput ^{end}
+	Home::SendInput ^{home}			; Home
+	END::SendInput ^{end}			; End
 	
 ; ## Cursor movement and Selections #
 	#Left::SendInput {Home}			; Command left
 	#Right::SendInput {End}			; Command right
-	#+Left::SendInput, +{Home}		; Shift-command left
-	#+Right::SendInput, +{End}		; Shift-command right
+	#+Left::SendInput, +{Home}		; [select] Shift-command left
+	#+Right::SendInput, +{End}		; [select] Shift-command right
 
 	#Up::SendInput ^{Home}			; Command up
 	#Down::SendInput ^{End}			; Command down
-	#+Up::SendInput ^+{Home}		; Shift-command up
-	#+Down::SendInput ^+{End}		; Shift-command down
+	#+Up::SendInput ^+{Home}		; [select] Shift-command up
+	#+Down::SendInput ^+{End}		; [select] Shift-command down
 
 ; ## <ALT> movement and selection
 	!Left::SendInput, ^{Left}		; Alt left
 	!Right::SendInput, ^{Right}		; Alt right
-	!+Left::SendInput, ^+{Left}		; Shift-alt left
-	!+Right::SendInput, ^+{Right}		; Shift-alt right
-	; Problems with Total Commander
-	;!Up::Send {Home}			; Alt UP 
-	;!Down::Send {End}			; Ald Down
+	!+Left::SendInput, ^+{Left}		; [select] Shift-alt left
+	!+Right::SendInput, ^+{Right}	; [select] Shift-alt right
+; Problems with Total Commander
+	;!Up::Send {Home}				; Alt UP 
+	;!Down::Send {End}				; Ald Down
 
 ; ???
 	;<!Left::Send {ctrl down}{Left}{ctrl up}
