@@ -10,5 +10,4 @@
 	Filter=
 	Create Tagfile=0
 [Files]
-	0=AutoHotkey.ahk
-	1=.\
+	0=.\
