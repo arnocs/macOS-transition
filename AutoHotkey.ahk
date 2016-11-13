@@ -24,13 +24,13 @@
 
 ; ## macOS / OSX
 ;#Include functions/apple_wired_keyboard.ahk		; 
-;
 #Include include\macOS.ahk
 #Include include\macOS_environment.ahk
 ;#Include include\macOS_special_character.ahk
 #Include include\macOS_functionkeys.ahk
 #Include include\macOS_cursor_movement.ahk
 #Include include\macOS_mouse.ahk
+;
 #Include include\macOS_apps_keymappings.ahk
 ;
 #Include include\macOS_win-keys.ahk
