@@ -1,5 +1,6 @@
 # macOS transition
-Using a Apple keyboard with numpad (metalic)
-##
+Autohotkey script for using a Apple keyboard with numpad (metalic).
+## Modifications
+
 ###
 UE-AutoHotKey-2016.prj | UltraEdit Project file
