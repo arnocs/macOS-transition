@@ -9,5 +9,6 @@
 #Include Apps\idm-ultraedit.ahk			; UltraEdit
 #Include Apps\vmware-player.ahk			; VMware player
 #Include Apps\microsoft-cmd.ahk			; command-prompt
+#Include Apps\adobe-reader.ahk			; Adobe Reader (PDF)
 
 ;#Include Apps\.ahk
