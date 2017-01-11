@@ -9,10 +9,8 @@
 ; <^>! = <AltGr>
 ; #################
 
-#IfWinActive, ahk_class AcrobatSDIWindow
-	#R:: Send +^{+}
-	+#R:: Send +^{-}
-	
+#IfWinActive, ahk_class TLister
+	#W:: Send {ESC}
 	
 	
 #IfWinActive

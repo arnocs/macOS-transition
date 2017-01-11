@@ -3,6 +3,7 @@
 
 
 #Include Apps\ghisler-totalcmd.ahk		; Total Commander
+#Include Apps\ghisler-tlister.ahk		; Total Commander - TLister
 #Include Apps\google-chrome.ahk			; Google Chrome
 #Include Apps\mozilla-firefox.ahk		; Mozilla Firefox
 #Include Apps\simontatham-putty.ahk		; Putty
