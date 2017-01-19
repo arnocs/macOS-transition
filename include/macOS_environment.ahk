@@ -14,7 +14,7 @@
 		
 ; ## Remap cmd+Tab to Alt+Tab # (No more 3D-alt-tab)
 	LWin & Tab::AltTab				; Alt Tab
-	LWin & ^SC029::ShiftAltTab		; Shift Alt tab
+;	LWin & ^SC029::ShiftAltTab		; Shift Alt tab, [Does not function anymore]
 	AppsKey & Tab::ShiftAltTab
 
 	#BS::Send {LShift down}{Home}{LShift Up}{Del} ; Deletes whole line (<command>-<backspace>)
