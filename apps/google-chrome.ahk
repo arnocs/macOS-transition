@@ -36,7 +36,11 @@
 ; Back, Forward - page
 	#[::Send !{Left}
 	#]::Send !{Right}
-;	BS::Send !{Left}
+;	BS::Send !{Left}, use a plugin in the browser (Backspace to go Back).
+	#=::send ^{=}
+	#+::Send ^{=}
+	#-::Send ^{-}
+	#0::Send ^{0}
 
 	;#l::Send {LCtrl down}{l}{LCtrl up} ;
 #IfWinActive
