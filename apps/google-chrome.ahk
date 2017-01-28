@@ -25,13 +25,13 @@
 	#R::Send ^r
 ; # Remapping control key shortcuts #
 ; (copy, paste, save, select all etc)
-	#a::Send ^a		; Select All
-	#c::Send ^c		; Copy
-	#x::Send ^x		; Cut
-	#v::Send ^v		; Paste
-	+#z::Send ^y		; Redo
-	#b::Send ^b		; Bold
-	#i::Send ^i		; 
+;	#a::Send ^a		; Select All
+;	#c::Send ^c		; Copy
+;	#x::Send ^x		; Cut
+;	#v::Send ^v		; Paste
+;	+#z::Send ^y		; Redo
+;	#b::Send ^b		; Bold
+;	#i::Send ^i		; 
 	;#s::Send !s		; Fails with onenote
 ; Back, Forward - page
 	#[::Send !{Left}
