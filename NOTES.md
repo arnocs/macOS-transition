@@ -4,7 +4,9 @@
 [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 
 [AHK List of Keys, Mouse Buttons, and Joystick Controls](https://autohotkey.com/docs/KeyList.htm)
+
 [AHK Override (Disable All) Windows keys](https://autohotkey.com/docs/misc/Override.htm)
+
 ; http://www.askvg.com/tip-how-to-disable-all-win-keyboard-shortcuts-hotkeys-in-windows/
 
 ### Mac Keyboard profiles ###
