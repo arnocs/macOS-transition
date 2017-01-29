@@ -11,7 +11,7 @@
 ; <^>! = <AltGr>
 ; #################
 
-;SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
+;SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting direCustom, Save ALLctory.
 #Include %A_ScriptDir%
 
 ; Include AHK configuration files.
