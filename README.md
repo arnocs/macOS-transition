@@ -1,5 +1,5 @@
 # macOS transition
-AutoHotkey (AHK) Script for using a Apple keyboard with numpad (metalic) on a windows 7 machine.
+AutoHotkey (AHK) Script for using a Apple keyboard with numpad (metalic) on a windows 7 machine.<br>
 The focus is on using it like a mac.
 
 ## Install
@@ -8,9 +8,7 @@ The focus is on using it like a mac.
 - Create a shortcut of 'AutoHotKey.ahk' file in the 'Startup' folder in your startmenu.
 
 ## AutoHotKey Currently in use v1.1.24.04
-- AutoHotkey [Download Page](https://www.autohotkey.com/download/) | 
-- [AHK Help](https://www.autohotkey.com/download/1.1/AutoHotkeyHelp.zip)
-
+- AutoHotkey [Download Page](https://www.autohotkey.com/download/) | [AHK Help](https://www.autohotkey.com/download/1.1/AutoHotkeyHelp.zip)
 
 ## Windows key changes
 - F16 is the <insert>, becouse unable to capture the <fn> key.
