@@ -13,7 +13,6 @@
 
 ; Send Key list - https://www.autoitscript.com/autoit3/docs/appendix/SendKeys.htm
 
-
 [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 
 [AHK List of Keys, Mouse Buttons, and Joystick Controls](https://autohotkey.com/docs/KeyList.htm)
@@ -28,14 +27,11 @@
 ; https://github.com/stroebjo/autohotkey-windows-mac-keyboard/blob/master/MacKeyboard.ahk
 ; https://github.com/stroebjo/autohotkey-windows-mac-keyboard/blob/195822b9cc1754694d45ed813271a065353b71a9/MacKeyboard.ahk
 
-
-
 ; not working becouse of forced <win>+keys
 ;LWin & SHIFT
 ;+#4::$S
 ; Save, Fails with 4th app in the taskbar (see Override Windows keys)
 ;#S::^s		T{4}::LWIN & S
-
 
 ### UltraEdit
 ;GroupAdd, Editors, "UltraEdit 64-bit"
