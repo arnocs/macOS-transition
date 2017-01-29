@@ -10,16 +10,21 @@
 ; #################
 
 ; ## 7 - 20 - 33 - 46 - 59 - 72 - 85 - 98 
-	BrightnessLevel=98				; Brightness ??
+;	BrightnessLevel=98				; Brightness ??
 
 ; ## 
-	#InstallKeybdHook		; Enable keylogging. - https://autohotkey.com/docs/commands/_InstallKeybdHook.htm
+;	#InstallKeybdHook		; Enable keylogging. - https://autohotkey.com/docs/commands/_InstallKeybdHook.htm
+; Looking for AltTab sticky ALT fix
+;	#UseHook
+
+;
 	#SingleInstance force	; skips dialog, replaces old instance, similar like Reload - https://autohotkey.com/docs/commands/_SingleInstance.htm
-
+;
 	SetTitleMatchMode 2
-
+;
 	#NoEnv					; Recommended for performance and compatibility with future AutoHotkey releases.
 	SendMode Input			; Recommended for new scripts due to its superior speed and reliability.
+
 
 ; #Persistent				; ???
 ; KeyHistory				; ???

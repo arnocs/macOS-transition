@@ -14,14 +14,9 @@
 		
 ; ## Remap cmd+Tab to Alt+Tab # (No more 3D-alt-tab)
 	LWin & Tab::AltTab				; Alt Tab
+;	RWin & Tab::AltTab				; Alt Tab
 ;	LWin & ^SC029::ShiftAltTab		; Shift Alt tab, [Does not function anymore]
 	AppsKey & Tab::ShiftAltTab
-
-	#BS::Send {LShift down}{Home}{LShift Up}{Del} ; Deletes whole line (<command>-<backspace>)
-; Deletes previous word (<alt>-<backspace>)
-	!BS::Send {right}{LCtrl down}{Left}{LCtrl up}{left}{LShift down}{LCtrl down}{Left}{LShift Up}{Lctrl up}{Del}{Del}{right}
-; Deletes next word (<alt>-<delete>)
-	!Delete::Send {left}{LCtrl down}{Right}{LCtrl Up}{LShift down}{LCtrl down}{Right}{LShift Up}{Lctrl up}{Del}{left 2}
 
 ; # Window management #
 	#m::WinMinimize,a
@@ -45,5 +40,10 @@
 	#y::^y		; Redo
 	+#z::^y		; Redo
 
-;#S::^s		; Save, Fails with onenote (see Override Windows keys)
-;LWin & SHIFT{4}::LWIN & S
+; Deletes whole line (<command>-<backspace>)
+	#BS::Send {LShift down}{Home}{LShift Up}{Del} 
+; Deletes previous word (<alt>-<backspace>)
+	!BS::Send {right}{LCtrl down}{Left}{LCtrl up}{left}{LShift down}{LCtrl down}{Left}{LShift Up}{Lctrl up}{Del}{Del}{right}
+; Deletes next word (<alt>-<delete>)
+	!Delete::Send {left}{LCtrl down}{Right}{LCtrl Up}{LShift down}{LCtrl down}{Right}{LShift Up}{Lctrl up}{Del}{left 2}
+
