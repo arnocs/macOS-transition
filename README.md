@@ -2,16 +2,21 @@
 AutoHotkey Script for using a Apple keyboard with numpad (metalic) on a windows 7 machine.
 The focus is on using it like a mac.
 
-## Using AHK v1.1.24.04, 
+## Install
+- Install AutoHotKey program (downloads below)
+- Get a copy of 'macOS-transition' extract it somewhere.
+- Create a shortcut of 'AutoHotKey.ahk' file in the 'Startup' folder in your startmenu.
 
-## AutoHotKey v2 is alpha-release. Suggest use v1.1.24.02
-v1.1.24.02 downloads
-* [AutoHotkey Portable](https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.24.02.zip)
-* [AutoHotkey_Setup](https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.24.02_setup.exe)
-* [Help](https://www.autohotkey.com/download/1.1/AutoHotkeyHelp.zip)
+## AutoHotKey v2 is alpha-release. Suggest use v1.1.24.04
+- AutoHotkey [Download Page](https://www.autohotkey.com/download/)
+- [AutoHotkey_Setup v1.1.24.04](https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.24.04_setup.exe)
+- [AutoHotkey Portable v1.1.24.04](https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.24.04.zip)
+- [Help](https://www.autohotkey.com/download/1.1/AutoHotkeyHelp.zip)
+
 
 ## Windows key changes
 - F16 is the <insert>, becouse unable to capture the <fn> key.
+- F18, Start UltraEdit
 - F19, Start calculator
 
 ## KnownBugs
@@ -20,7 +25,7 @@ v1.1.24.02 downloads
 
 ## Mouse, Reverse scrolling is disabled in the macOS_mouse.ahk script.
 I'm using Wizmouse, becouse of the focus/scroll option.
-(Hovering over an inactive program scrolling works on that program )
+(Hovering over an inactive program scrolling works on that program)
 http://antibody-software.com/web/software/software/wizmouse-makes-your-mouse-wheel-work-on-the-window-under-the-mouse/
 
 ## UltraEdit project file
