@@ -1,5 +1,5 @@
 # macOS transition
-AutoHotkey Script for using a Apple keyboard with numpad (metalic) on a windows 7 machine.
+AutoHotkey (AHK) Script for using a Apple keyboard with numpad (metalic) on a windows 7 machine.
 The focus is on using it like a mac.
 
 ## Install
@@ -7,11 +7,9 @@ The focus is on using it like a mac.
 - Get a copy of 'macOS-transition' extract it somewhere.
 - Create a shortcut of 'AutoHotKey.ahk' file in the 'Startup' folder in your startmenu.
 
-## AutoHotKey v2 is alpha-release. Suggest use v1.1.24.04
-- AutoHotkey [Download Page](https://www.autohotkey.com/download/)
-- [AutoHotkey_Setup v1.1.24.04](https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.24.04_setup.exe)
-- [AutoHotkey Portable v1.1.24.04](https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.24.04.zip)
-- [Help](https://www.autohotkey.com/download/1.1/AutoHotkeyHelp.zip)
+## AutoHotKey Currently in use v1.1.24.04
+- AutoHotkey [Download Page](https://www.autohotkey.com/download/) | 
+- [AHK Help](https://www.autohotkey.com/download/1.1/AutoHotkeyHelp.zip)
 
 
 ## Windows key changes
