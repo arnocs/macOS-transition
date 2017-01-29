@@ -61,11 +61,9 @@
 ; Run Calculator
 	F19::Run Calc
 ; Computer Sleep	
-	+#F19::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 1, "int",0) 
+;	+#F19::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 1, "int",0) 
 ; 
 	F20::SendInput {Insert}
-; Computer Sleet
-	^+#q::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 1, "int",0) 
 ; Lock and dim-screens
 	+#q::
 	{
@@ -82,6 +80,11 @@
 	; Run "Shutdown.exe -s -t 60"												; Shutdown Computer
 	; #F19::Run "rundll32.exe powrprof.dll,SetSuspendState 0,1,0				; Sleep Computer 
 	; ^#F19::
+;
+; Computer Sleep
+	^+#q::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 1, "int",0) 
+
+
 
 ;+!4::Send {LWin S}
 ;#S::Send {LWin}

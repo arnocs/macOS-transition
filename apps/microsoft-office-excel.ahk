@@ -9,8 +9,6 @@
 ; <^>! = <AltGr>
 ; #################
 
-#IfWinActive
-
 ; Microsoft Excel specifics
 #IfWinActive, ahk_class XLMAIN
 

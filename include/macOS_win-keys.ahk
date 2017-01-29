@@ -11,7 +11,7 @@
 
 #N::return	; [disable] Onenote, newnote.
 ALT & TAB::return	; [disable] ALT-Tab
-			
+
 ; Disable lock, select addressbar browser.
 ;#L::return ; Cannot be disabled
 ;#l::!d

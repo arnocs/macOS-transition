@@ -1,5 +1,15 @@
 ; #################################################################
 ; ####### Firefox
+
+; #################
+; # = Windows key
+; ^ = <CTRL>
+; ! = <ALT>
+; + = <Shift>
+; <^>! = <AltGr>
+; #################
+
+
 #IfWinActive, ahk_class MozillaWindowClass
 	;#L::Send !d	; Fails with Win-Desktop command
 	#z::Send ^+t	; undo close tab
