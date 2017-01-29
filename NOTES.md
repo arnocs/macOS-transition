@@ -1,6 +1,5 @@
 # Notes
 
-
 [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 
 [AHK List of Keys, Mouse Buttons, and Joystick Controls](https://autohotkey.com/docs/KeyList.htm)

@@ -1,7 +1,7 @@
 ; #################################################################
 ; #### Using a Mac keyboard on Windows 
 ; ### 
-; ## 2015, 20160331, 20161006a
+; ## 
 
 ; #################
 ; # = Windows key
@@ -11,13 +11,13 @@
 ; <^>! = <AltGr>
 ; #################
 
-;SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting direCustom, Save ALLctory.
+#+r::Reload						; (win shift r)  reload this script
+; ## SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting direCustom, Save ALLctory.
 #Include %A_ScriptDir%
 
-; Include AHK configuration files.
+; #################################################################
+; ## Include AHK configuration files.
 #Include include\AHK_init.ahk					; AHK_init.ahk, 
-;#Include functions/apple_wired_keyboard.ahk		; 
-;#Include include\macOS.ahk						; Notes, not realy defined yet.
 #Include include\macOS_environment.ahk			; Windows environment
 ;#Include include\macOS_special_character.ahk	; Special characters shortcuts from Mac.
 #Include include\macOS_functionkeys.ahk			; Windows Function keys
@@ -25,7 +25,11 @@
 #Include include\macOS_mouse.ahk				; Mouse modifications
 ;#Include include\macOS_apps_keymappings.ahk		; Customizing application, special windows keys can be overruled this way.
 #Include include\macOS_win-keys.ahk				;
-;#Include include\macOS_.ahk
+;#Include include\macOS_						; Template for extra include files.
+; #################################################################
+
+; TEST
+;#Include functions/apple_wired_keyboard.ahk		; 
 
 ; #################################################################
 ; #### Applications custom settings
@@ -42,12 +46,3 @@
 #Include Apps\adobe-reader.ahk			; Adobe Reader (PDF)
 ;#Include Apps\.ahk
 ; #################################################################
-
-
-
-
-; #################################################################
-
-; 20161113, Win-Keys (alt-tab, Lwin+grave-accent), Renamed win-key, cursor file.
-
-; https://autohotkey.com/docs/KeyList.htm

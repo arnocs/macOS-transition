@@ -22,5 +22,6 @@
 ; 
 	#s::Send ^s		; Save
 	#+s::Send {F12}	; Save as
-	#!s::Send !{F12}; Custom, Save ALL
+	#!s::Send !{F12} ; Custom, Save ALL
+;
 #IfWinActive

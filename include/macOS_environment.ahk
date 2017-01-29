@@ -12,14 +12,7 @@
 ; ## Spotlite search combination activates windows menu.
 	#space::Send {LWin}
 
-; ## Remap cmd+Tab to Alt+Tab # (No more 3D-alt-tab)
-	LWin & Tab::AltTab				; Alt Tab
-	RWin & Tab::AltTab				; Alt Tab
-	LWin & `::ShiftAltTab			; Alt Tab reverse
-	RWin & `::ShiftAltTab			; Alt Tab reverse
-;	LWin & ^SC029::ShiftAltTab		; Shift Alt tab, [Does not function anymore]`
-;	AppsKey & Tab::ShiftAltTab
-;
+; 
 	#x::^x		; Cut
 	#c::^c		; Copy
 	#v::^v		; Paste
@@ -35,9 +28,16 @@
 	#z::^z		; Undo
 	#y::^y		; Redo/repeat
 	+#z::^y		; Redo/repeat
-;
 
-; # Window/Application management #
+; ## Remap cmd+Tab to Alt+Tab # (No more 3D-alt-tab)
+	LWin & Tab::AltTab				; Alt Tab
+	RWin & Tab::AltTab				; Alt Tab
+	LWin & `::ShiftAltTab			; Alt Tab reverse
+	RWin & `::ShiftAltTab			; Alt Tab reverse
+;	LWin & ^SC029::ShiftAltTab		; Shift Alt tab, [Does not function anymore]`
+;	AppsKey & Tab::ShiftAltTab
+
+; ## Window/Application management
 	#t::Send ^t		; New Tab
 	#o::Send ^o		; Open
 
@@ -45,3 +45,19 @@
 	#q::Send !{F4}	; Quit
 
 	#m::WinMinimize,a
+
+;; Browser control
+	#}::Send ^{Tab}					; forward tab
+	#{::Send ^+{Tab}				; backward tab
+	#[::Send {Browser_Back}
+	#]::Send {Browser_Forward}
+				
+; ### Disable Keys (CapsLock)
+	CapsLock::return
+	+CapsLock::return
+	!CapsLock::return
+	^CapsLock::return
+	#CapsLock::return
+	^!CapsLock::return
+	^!#CapsLock::return
+	;............	; You can add whatever you want to block

@@ -9,6 +9,8 @@
 ; <^>! = <AltGr>
 ; #################
 
+
+
 ; HOME END Functions
 	Home::SendInput ^{home}			; Home
 	END::SendInput ^{end}			; End
@@ -30,7 +32,14 @@
 	!+Left::SendInput, ^+{Left}		; [select] Shift-alt left
 	!+Right::SendInput, ^+{Right}	; [select] Shift-alt right
 
-; Problems with Total Commander
+; Deletes whole line (<command>-<backspace>)
+	#BS::Send {LShift down}{Home}{LShift Up}{Del} 
+; Deletes previous word (<alt>-<backspace>)
+	!BS::Send {right}{LCtrl down}{Left}{LCtrl up}{left}{LShift down}{LCtrl down}{Left}{LShift Up}{Lctrl up}{Del}{Del}{right}
+; Deletes next word (<alt>-<delete>)
+	!Delete::Send {left}{LCtrl down}{Right}{LCtrl Up}{LShift down}{LCtrl down}{Right}{LShift Up}{Lctrl up}{Del}{left 2}
+
+; Problems with Total Commander, currently not used.
 ;	!Up::Send {Home}				; Alt UP 
 ;	!Down::Send {End}				; Ald Down
 
@@ -43,6 +52,7 @@
 	;!Down::Send {ctrl down}{Down}{ctrl up}
 	;^Up::Send {Lctrl down}{Home}{Lctrl up}
 	;^Down::Send {Lctrl down}{End}{Lctrl up}
+
 ; ??? Selection 
 	;<!+Left::Send {ctrl down}{shift down}{Left}{shift up}{ctrl up}
 	;<!+Right::Send {ctrl down}{shift down}{Right}{shift up}{ctrl up}
@@ -53,17 +63,3 @@
 	;^+Up::Send {Lctrl down}{shift down}{Home}}{shift up}{Lctrl up}
 	;^+Down::Send {Lctrl down}{shift down}{End}}{shift up}{Lctrl up}
 
-; Deletes whole line (<command>-<backspace>)
-	#BS::Send {LShift down}{Home}{LShift Up}{Del} 
-; Deletes previous word (<alt>-<backspace>)
-	!BS::Send {right}{LCtrl down}{Left}{LCtrl up}{left}{LShift down}{LCtrl down}{Left}{LShift Up}{Lctrl up}{Del}{Del}{right}
-; Deletes next word (<alt>-<delete>)
-	!Delete::Send {left}{LCtrl down}{Right}{LCtrl Up}{LShift down}{LCtrl down}{Right}{LShift Up}{Lctrl up}{Del}{left 2}
-
-;; Browser control
-	#}::Send ^{Tab}  ; forward tab
-	#{::Send ^+{Tab}  ; backward tab
-	#[::Send {Browser_Back}
-	#]::Send {Browser_Forward}
-
-	#+r::Reload  ; (win shift r)  reload this script
