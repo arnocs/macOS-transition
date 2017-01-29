@@ -1,5 +1,5 @@
 ; #################################################################
-; #### Description
+; ####### Microsoft - Excel
 
 ; #################
 ; # = Windows key
@@ -9,3 +9,13 @@
 ; <^>! = <AltGr>
 ; #################
 
+#IfWinActive
+
+; Microsoft Excel specifics
+#IfWinActive, ahk_class XLMAIN
+
+  #+s::F12 ; Save as
+;  #Up::Send ^{Up}
+;  #Down::Send ^{Down}
+
+#IfWinActive
