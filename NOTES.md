@@ -1,7 +1,6 @@
-
-
 ### Override (Disable All) Windows keys - https://autohotkey.com/docs/misc/Override.htm 
 ; http://www.askvg.com/tip-how-to-disable-all-win-keyboard-shortcuts-hotkeys-in-windows/
+
 
 
 ; #### Mac Keyboard profiles ###

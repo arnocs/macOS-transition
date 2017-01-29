@@ -1,5 +1,7 @@
 # macOS transition
-Using a Apple keyboard with numpad (metalic)
+AutoHotkey Script for using a Apple keyboard with numpad (metalic) on a windows 7 machine.
+The focus is on using it like a mac.
+
 ## Using AHK v1.1.24.04, 
 
 # AutoHotKey v2 is alpha-release. Suggest use v1.1.24.02
