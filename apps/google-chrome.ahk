@@ -54,6 +54,8 @@
 	#b::Send ^b		; Bold
 	#i::Send ^i		; 
 	;#s::Send !s		; Fails with onenote
+	#+s::Send ^{s}	; Save as
+
 
 
 

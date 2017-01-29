@@ -9,11 +9,11 @@
 ; <^>! = <AltGr>
 ; #################
 
-; ## HOME END Functions
+; HOME END Functions
 	Home::SendInput ^{home}			; Home
 	END::SendInput ^{end}			; End
 	
-; ## Cursor movement and Selections #
+; Cursor movement and Selections
 	#Left::SendInput {Home}			; Command left
 	#Right::SendInput {End}			; Command right
 	#+Left::SendInput, +{Home}		; [select] Shift-command left
@@ -24,14 +24,15 @@
 	#+Up::SendInput ^+{Home}		; [select] Shift-command up
 	#+Down::SendInput ^+{End}		; [select] Shift-command down
 
-; ## <ALT> movement and selection
+; <ALT> movement and selection
 	!Left::SendInput, ^{Left}		; Alt left
 	!Right::SendInput, ^{Right}		; Alt right
 	!+Left::SendInput, ^+{Left}		; [select] Shift-alt left
 	!+Right::SendInput, ^+{Right}	; [select] Shift-alt right
+
 ; Problems with Total Commander
-	;!Up::Send {Home}				; Alt UP 
-	;!Down::Send {End}				; Ald Down
+;	!Up::Send {Home}				; Alt UP 
+;	!Down::Send {End}				; Ald Down
 
 ; ???
 	;<!Left::Send {ctrl down}{Left}{ctrl up}
@@ -51,3 +52,18 @@
 	;!+Down::Send {ctrl down}{shift down}{Down}}{shift up}{ctrl up}
 	;^+Up::Send {Lctrl down}{shift down}{Home}}{shift up}{Lctrl up}
 	;^+Down::Send {Lctrl down}{shift down}{End}}{shift up}{Lctrl up}
+
+; Deletes whole line (<command>-<backspace>)
+	#BS::Send {LShift down}{Home}{LShift Up}{Del} 
+; Deletes previous word (<alt>-<backspace>)
+	!BS::Send {right}{LCtrl down}{Left}{LCtrl up}{left}{LShift down}{LCtrl down}{Left}{LShift Up}{Lctrl up}{Del}{Del}{right}
+; Deletes next word (<alt>-<delete>)
+	!Delete::Send {left}{LCtrl down}{Right}{LCtrl Up}{LShift down}{LCtrl down}{Right}{LShift Up}{Lctrl up}{Del}{left 2}
+
+;; Browser control
+	#}::Send ^{Tab}  ; forward tab
+	#{::Send ^+{Tab}  ; backward tab
+	#[::Send {Browser_Back}
+	#]::Send {Browser_Forward}
+
+	#+r::Reload  ; (win shift r)  reload this script

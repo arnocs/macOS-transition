@@ -19,7 +19,7 @@
 ;#Include functions/apple_wired_keyboard.ahk		; 
 ;#Include include\macOS.ahk						; Notes, not realy defined yet.
 #Include include\macOS_environment.ahk			; Windows environment
-;#Include include\macOS_special_character.ahk	;
+;#Include include\macOS_special_character.ahk	; Special characters shortcuts from Mac.
 #Include include\macOS_functionkeys.ahk			; Windows Function keys
 #Include include\macOS_cursor_movement.ahk		; Windows Cursor movement
 #Include include\macOS_mouse.ahk				; Mouse modifications
@@ -35,6 +35,7 @@
 #Include Apps\mozilla-firefox.ahk		; Mozilla Firefox
 #Include Apps\microsoft-cmd.ahk			; command-prompt
 #Include Apps\microsoft-ie.ahk 			; internet explorer
+#Include Apps\microsoft-visualstudio.ahk	; Visualstudio 
 #Include Apps\simontatham-putty.ahk		; Putty
 #Include Apps\idm-ultraedit.ahk			; UltraEdit
 #Include Apps\vmware-player.ahk			; VMware player

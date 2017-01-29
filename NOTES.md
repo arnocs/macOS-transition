@@ -1,3 +1,9 @@
+
+
+### Override (Disable All) Windows keys - https://autohotkey.com/docs/misc/Override.htm 
+; http://www.askvg.com/tip-how-to-disable-all-win-keyboard-shortcuts-hotkeys-in-windows/
+
+
 ; #### Mac Keyboard profiles ###
 ; # Fn Key
 ; https://gist.github.com/anonymous/4294405#file-applewkhelper-ahk
