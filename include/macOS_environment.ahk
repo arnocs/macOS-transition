@@ -30,6 +30,7 @@
 	#u::^u			; Underline, Fails with Ease of Access center
 
 	#f::Send {LCtrl down}{f}{LCtrl up}
+	#g::Send ^g ; Find Next
 	#a::^a		; Select All
 
 	#x::^x		; Cut
@@ -37,8 +38,8 @@
 	#v::^v		; Paste
 
 	#z::^z		; Undo
-	#y::^y		; Redo
-	+#z::^y		; Redo
+	#y::^y		; Redo/repeat
+	+#z::^y		; Redo/repeat
 
 ; Deletes whole line (<command>-<backspace>)
 	#BS::Send {LShift down}{Home}{LShift Up}{Del} 
@@ -47,3 +48,10 @@
 ; Deletes next word (<alt>-<delete>)
 	!Delete::Send {left}{LCtrl down}{Right}{LCtrl Up}{LShift down}{LCtrl down}{Right}{LShift Up}{Lctrl up}{Del}{left 2}
 
+;; Browser control
+	#}::Send ^{Tab}  ; forward tab
+	#{::Send ^+{Tab}  ; backward tab
+	#[::Send {Browser_Back}
+	#]::Send {Browser_Forward}
+
+	#+r::Reload  ; (win shift r)  reload this script

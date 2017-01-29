@@ -16,8 +16,9 @@
 
 ;SetTitleMatchMode, RegEx
 #IFWinActive, ahk_exe uedit64.exe 
-	#s::Send ^s
-	#n::Send ^n
-;	#k::Send ^o
-	Alt & Left::Send ^{Left}
+	#s::Send ^s		; Save
+	#+s::Send {F12}	; Save as
+
+	#n::Send ^n		; New
+;	#k::Send ^o		; Open
 #IfWinActive
