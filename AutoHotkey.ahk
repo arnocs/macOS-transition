@@ -27,8 +27,7 @@
 #Include include\macOS_win-keys.ahk				;
 ;#Include include\macOS_						; Template for extra include files.
 ; #################################################################
-
-; TEST
+; #### TEST
 ;#Include functions/apple_wired_keyboard.ahk		; 
 
 ; #################################################################
@@ -45,4 +44,8 @@
 #Include Apps\vmware-player.ahk			; VMware player
 #Include Apps\adobe-reader.ahk			; Adobe Reader (PDF)
 ;#Include Apps\.ahk
+; #################################################################
+; #### Games custom settings
+#Include Games\elite-dangerous.ahk		; Elite Dangerous
+;#Include Games\.ahk
 ; #################################################################

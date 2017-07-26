@@ -9,23 +9,25 @@
 ; <^>! = <AltGr>
 ; #################
 
-; Variables - https://autohotkey.com/docs/Variables.htm
-
-; Send Key list - https://www.autoitscript.com/autoit3/docs/appendix/SendKeys.htm
+; AHK Variables - https://autohotkey.com/docs/Variables.htm
+; AHK Send Key list - https://www.autoitscript.com/autoit3/docs/appendix/SendKeys.htm
+; AHK & UAC - https://autohotkey.com/docs/FAQ.htm#uac
+[AHK List of Keys, Mouse Buttons, and Joystick Controls](https://autohotkey.com/docs/KeyList.htm)
+[AHK Override (Disable All) Windows keys](https://autohotkey.com/docs/misc/Override.htm)
 
 [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 
-[AHK List of Keys, Mouse Buttons, and Joystick Controls](https://autohotkey.com/docs/KeyList.htm)
-
-[AHK Override (Disable All) Windows keys](https://autohotkey.com/docs/misc/Override.htm)
-
 ; http://www.askvg.com/tip-how-to-disable-all-win-keyboard-shortcuts-hotkeys-in-windows/
+
 
 ### Mac Keyboard profiles ###
 ; # Fn Key
 ; https://gist.github.com/anonymous/4294405#file-applewkhelper-ahk
 ; https://github.com/stroebjo/autohotkey-windows-mac-keyboard/blob/master/MacKeyboard.ahk
 ; https://github.com/stroebjo/autohotkey-windows-mac-keyboard/blob/195822b9cc1754694d45ed813271a065353b71a9/MacKeyboard.ahk
+; https://github.com/zakkie/MacAHK/blob/master/mac.ahk - functions
+; https://github.com/wsgavin/AHKMacKb/blob/master/AHKMacKb.ahk
+; https://github.com/m2nlight/AHKShortcutLikeMac/blob/master/machotkey.ahk
 
 ; not working becouse of forced <win>+keys
 ;LWin & SHIFT

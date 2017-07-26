@@ -35,9 +35,9 @@
 ; Deletes whole line (<command>-<backspace>)
 	#BS::Send {LShift down}{Home}{LShift Up}{Del} 
 ; Deletes previous word (<alt>-<backspace>)
-	!BS::Send {right}{LCtrl down}{Left}{LCtrl up}{left}{LShift down}{LCtrl down}{Left}{LShift Up}{Lctrl up}{Del}{Del}{right}
+	!BS::Send {right}{LCtrl down}{Left}{LCtrl up}{left}{LShift down}{LCtrl down}{Left}{Lctrl up}{LShift Up}{Del}{Del}{right}
 ; Deletes next word (<alt>-<delete>)
-	!Delete::Send {left}{LCtrl down}{Right}{LCtrl Up}{LShift down}{LCtrl down}{Right}{LShift Up}{Lctrl up}{Del}{left 2}
+	!Delete::Send {left}{LCtrl down}{Right}{LCtrl Up}{LShift down}{LCtrl down}{Right}{Lctrl up}{LShift Up}{Del}{left 2}
 
 ; Problems with Total Commander, currently not used.
 ;	!Up::Send {Home}				; Alt UP 

@@ -27,7 +27,7 @@
 ;
 	#z::^z		; Undo
 	#y::^y		; Redo/repeat
-	+#z::^y		; Redo/repeat
+	#+z::^y		; Redo/repeat
 
 ; ## Remap cmd+Tab to Alt+Tab # (No more 3D-alt-tab)
 	LWin & Tab::AltTab				; Alt Tab

@@ -35,6 +35,8 @@
 	#+t::Send ^+t	; undo close tab
 	#z::Send ^+t	; undo close tab
 
+	#n::Send ^n		; new window
+
 ; Zoom in, out, back to 100%
 	#=::send ^{=}
 	#+::Send ^{=}

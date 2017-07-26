@@ -21,6 +21,9 @@
 ; skips dialog, replaces old instance, similar like Reload - https://autohotkey.com/docs/commands/_SingleInstance.htm
 	#SingleInstance force	
 	SetTitleMatchMode 2
+	
+; Test for sticky +!^ keys
+	#HotkeyModifierTimeout 100
 ;
 	#NoEnv					; Recommended for performance and compatibility with future AutoHotkey releases.
 	SendMode Input			; Recommended for new scripts due to its superior speed and reliability.
