@@ -48,7 +48,7 @@
 
 	^#f::Send {F11}	; Full screen
 		; Sidebar
-	#d::Send ^d		; Bookmarks
+	#d::Send !d		; Bookmarks
 	+#b::Send +^b		; Bookmarks bar
 	; !#b::return
 	; !#b::+^o		; Bookmarks edit, not working ??

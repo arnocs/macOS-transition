@@ -9,10 +9,17 @@
 ; <^>! = <AltGr>
 ; #################
 
+; ## Windows 10, stupid shortcuts disabled.
+	#c::		; greyscale
+	#v::		; unknown
+	#s::		; cortana search
+	#u::		; Narrator 
+
 ; ## Spotlite search combination activates windows menu.
 	#space::Send {LWin}
-
-; 
+	^#::
+			
+;
 	#x::^x		; Cut
 	#c::^c		; Copy
 	#v::^v		; Paste
@@ -27,8 +34,8 @@
 ;
 	#z::^z		; Undo
 	#y::^y		; Redo/repeat
-	#+z::^y		; Redo/repeat
-
+	+#z::^y		; Redo/repeat
+    	
 ; ## Remap cmd+Tab to Alt+Tab # (No more 3D-alt-tab)
 	LWin & Tab::AltTab				; Alt Tab
 	RWin & Tab::AltTab				; Alt Tab

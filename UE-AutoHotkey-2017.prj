@@ -1,6 +1,6 @@
 [Project ID]
 Signature=UE Proj: v.1
-Unicode=1
+Unicode=2
 [Project Information]
 	Use Relative Directory=1
 	Relative to Project File=1
@@ -24,3 +24,27 @@ Unicode=1
 [FilesW - git]
 0=.gitignore
 1=.gitattributes
+[FilesU]
+0=.+AFw-
+[GroupU]
+0=git
+1=MacOS+AF8-Transition
+2=MacOS+AF8-Transition - Notes
+3=MacOS+AF8-Transition - Apps+AF8-Browsers
+4=MacOS+AF8-Transition - Apps+AF8-Games
+5=MacOS+AF8-Transition - Main
+[FilesU - git]
+0=.gitignore
+1=.gitattributes
+[FilesU - MacOS+AF8-Transition - Notes]
+0=..+AFw-AutoHotKey+AFw-Changelog.md
+1=NOTES.md
+2=README.md
+[FilesU - MacOS+AF8-Transition - Apps+AF8-Browsers]
+0=apps+AFw-google-chrome.ahk
+1=apps+AFw-mozilla-firefox.ahk
+[FilesU - MacOS+AF8-Transition - Apps+AF8-Games]
+0=games+AFw-elite-dangerous.ahk
+[FilesU - MacOS+AF8-Transition - Main]
+0=AutoHotkey.ahk
+1=include+AFw-AHK+AF8-init.ahk
